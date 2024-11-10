@@ -1,0 +1,6 @@
+This shows the sequence of operations and how data flows between components.
+
+User Requests → User inputs a request (e.g., login or data submission).
+Application Logic → Processes request, interacts with external services if needed.
+Database → Retrieves or updates data, returning results.
+User Interface → Displays output based on processed data.
