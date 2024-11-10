@@ -1,0 +1,23 @@
++---------------------------------------------------------+
+|                    User Interface (UI)                  |
+|   - Web App / Mobile App                               |
+|   - User Requests                                      |
+|   - Displays Data & Results                            |
++---------------------------------------------------------+
+                   |                |                |
+                   |                |                |
+                   V                V                V
++--------------------+     +------------------+   +-------------------+
+| Application Logic  |     | Authentication  |   | External Services |
+|  (Core Processing) |     | Service (Login) |   |   - APIs          |
+|  - Business Logic  |     +------------------+   |   - Integrations  |
++--------------------+                             +-------------------+
+                   |
+                   |
+                   V
++------------------------------------------+
+|               Database                   |
+|   - Stores Data (e.g., Users, Posts)     |
+|   - Executes Queries & Updates           |
++------------------------------------------+
+
